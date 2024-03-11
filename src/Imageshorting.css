@@ -1,0 +1,27 @@
+.sort{
+    display: flex;
+    justify-content: end;
+    max-width: 1330vw;
+    width: 95%;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: hsl(0, 0%, 85%);
+    margin: 76px 57px 52px 10px ;
+}
+.text2{
+    width: 100%;
+    color: #333;
+    font-family: "DM Sans";
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    letter-spacing: 0.184px;
+    justify-content: flex-end;
+    display: flex;
+
+    margin: 16px 72px 16px 0px;
+    /* width: 100%; */
+
+}

@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+  }
+
+  .container12 {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    z-index: 90;
+    top: 0;
+    overflow: hidden;
+    max-width: 1550vw;
+    width: 100%;
+  }
+
+  .nav-bar {
+    max-width: 1550vw;
+    width: 100%;
+    text-decoration: none;
+    background: var(--PrimaryColor, #2F7ABF);
+    display: flex;
+    height: 108px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    gap: 10px;
+    border-radius: 0px 0px 30px 30px;
+
+  }
+
+  .cart22 {
+    height: 25px;
+    width: 25px;
+    line-height: normal;
+    background-color: floralwhite;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0px 50px 40px 0px;
+  }
+
+  .cart2{
+    height: 25px;
+    width: 25px;
+    line-height: normal;
+    background-color: floralwhite;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-left: 45px;
+    /* margin-top: 130px; */
+    /* margin: 190px 60px 40px 30px; */
+  }
+  .icon1 {
+    margin-left: 10px;
+    margin-top: -25px;
+    width: 45px;
+    height: 45px;
+    font-size: 50px;
+    position: relative;
+  }
+
+  .icon {
+    margin-right: 70px;
+    width: 45px;
+    height: 45px;
+    font-size: 50px;
+    position: relative;
+  }
+
+  .li {
+    color: var(--White, #ECECEC);
+    font-family: Inter;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    list-style: none;
+    margin-left: 20px;
+  }
+
+  .li1 {
+    color: var(--White, #ECECEC);
+    font-family: Inter;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    list-style: none;
+    margin-left: 20px;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+
+  .nav-bar1 {
+    margin-top: 100px;
+    margin-left: 70px;
+    text-decoration: none;
+    background: var(--PrimaryColor, #6e7982);
+    display: flex;
+    height:270px;
+    flex-direction: column;
+    flex-shrink: 0;
+    gap: 10px;
+    position: fixed;
+    width: 300px;
+    
+  }
+
+  .active li {
+    color: black;
+  }
+
+@media only screen and (max-width: 500px) {
+    
+    .li {
+      display: none;
+    }
+    
+
+  }
+
+  .ham {
+    justify-content: flex-start;
+    transform: translate(10%, 200%);
+    width: 40%;
+    font-size: 30px;
+  }
+  .hicon{
+    margin-top: -40px;
+    padding: 0px;
+  }
+  
