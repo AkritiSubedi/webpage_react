@@ -22,17 +22,19 @@ function Products(props) {
   }, []);
 
   return (
+    <>
+    <div className="h1">Most Sellings</div>
     <div className="product">
-      <h1 className="h1">Most Sellings</h1>
       {firstPage.map((value, index) => (
         <div className="products" key={index}>
            <Allproduct
               value={value}
               cart={() => props.setCartCount((prevCount) => prevCount + 1)}
-            />
+              />
         </div>
       ))}
     </div>
+      </>
   );
 }
 

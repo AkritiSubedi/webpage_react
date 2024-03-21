@@ -5,7 +5,6 @@
 
 .product{
     min-width: 280px;
-
     justify-content: space-evenly;
     width: 100%;
     background: #FFF;
@@ -14,7 +13,8 @@
 
 }
 .h1{
-    margin: 46px 1148px 0px 59px;
+    margin: 50px 100px 0px 100px;
+    /* margin: 46px 1148px 0px 300px; */
     color: #000;
     font-family: Inter;
     font-size: 36px;
@@ -35,9 +35,10 @@
     }
     .product_name{font-size: 1.2rem;}
     .product{
-        width: 100vw;
+        width: 100%;
         align-items: center;
         margin: 0px;
+        margin-right: 50px;
     }
 }
 
@@ -50,9 +51,15 @@
         align-items: center;
         gap: 10px;
     }
+    .buy{
+        margin-right: -10px;
+        gap: 0px;
+    }
+    
 
   
 }
+
 .image{
     max-width: 400px;
     width: 100%;
@@ -150,6 +157,12 @@ font-weight: 600;
 line-height: normal;
  border: 1px solid #9C9C9C;
  
+}
+.products{
+    margin-right: 0px;
+    max-width: 500px;
+    width: 100%;
+    margin-left: -60px;
 }
 .star{
     color: #CA6126;
